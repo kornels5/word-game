@@ -7,7 +7,7 @@ const App = () => {
       <header className="navbar">
         <h1 className="brand">Word Game</h1>
       </header>
-      <Scoreboard letters={25} />
+      <Scoreboard rows={6} />
     </div>
   );
 };
