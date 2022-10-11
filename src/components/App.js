@@ -1,5 +1,5 @@
 import React from "react";
-import Scoreboard from "./Scoreboard";
+import GameBoard from "./GameBoard";
 
 const App = () => {
   return (
@@ -7,7 +7,7 @@ const App = () => {
       <header className="navbar">
         <h1 className="brand">Word Game</h1>
       </header>
-      <Scoreboard rows={6} />
+      <GameBoard />
     </div>
   );
 };
